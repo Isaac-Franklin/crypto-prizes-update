@@ -1,0 +1,583 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #9926D0; */
+    font-family: tahoma;
+}
+
+body{
+    /* background-color: rgb(241, 241, 241); */
+    background-color: #eacff7;
+    overflow-x: hidden;
+}
+
+/* NAV EDITS START HERE */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h3{
+    font-family: tahoma;
+}
+
+.logo img{
+    width: 50px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    /* background-color: #e5caf3; */
+    font-size: 1.4rem;
+    /* background: white; */
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+}
+
+nav ul{
+    display: flex;
+    background-color: none;
+}
+
+
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 30px;
+    background-color: transparent;
+    padding: 10px;
+    cursor: pointer;
+    /* color: white; */
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.acctbtn button{
+    background-color: #eacff7;
+    box-shadow: 2px 2px 2px #888888;
+    border: none;
+    font-size: 1.2rem;
+    font-family: tahoma;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+/* HERO SECTION EDITS START HERE */
+
+
+.herosection{
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    position: relative;
+    background-image: url("./images/globe\ background.png");
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+
+.herosectiontext{
+    margin-top: 170px;
+    
+}
+
+
+span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.herosectioninner1 img{
+    height: 100vh;
+    right: 0;
+    z-index: 3;
+    margin-top: 60px;
+    border-bottom: 1px solid white;
+    z-index: 2;
+    /* background-color: white;   */
+}
+
+
+.herosection p{
+    font-size: 3rem;
+    z-index: 2;
+    /* color: #4d4c4e; */
+    
+}
+
+.herosection .btn input{
+    /* background-color: white; */
+    background-color: white;
+    margin: 15px auto;
+    position: relative;
+    border: none;
+    border-radius: 30px;
+    /* box-shadow: 1px 3px 3px 3px grey; */
+    box-shadow: 5px 5px 20px #888888;
+    width: 86%;
+    font-size: 1.4rem;
+    font-family: tahoma;
+    padding: 15px;
+
+}
+
+.herosection .btn button{
+    border-radius: 30px;
+    background-color: #eacff7;
+    position: absolute;
+    left: 34.5%;
+    z-index: 1;
+    color: black;
+    font-weight: bold;
+    margin: 15px auto;
+    border: none;
+    width: 10%;
+    height: 50px;
+    font-size: 1.2rem;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+.herosection h1{
+    font-size: 3rem;
+    z-index: 6;
+}
+
+.nfts{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+
+
+.nfts img{
+    width: 100px;
+    margin-right: 10px;
+    border: 1px solid white;
+    padding: 0px 10px;
+}
+
+
+.nftsinner2{
+    display: flex;
+}
+/* .nfts img{
+    width: 190px;
+    margin-left: 20px;
+    
+} */
+
+/* PORTFOLIO SECTION STARTS HERE */
+
+.portfoliosectionintro img{
+    width: 300px;
+}
+
+.portfoliosectionintro{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    width: 90%;
+    background-color: white;
+    /* background: rgba(244, 234, 249, 0.29); */
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.portfoliosectionintro h2{
+    font-size: 3rem;
+    text-align: right;
+}
+
+
+.portfoliosectionintro button{
+    /* background-color: white; */
+    background-color: #eacff7;
+
+    margin: 15px auto;
+    border: none;
+    /* box-shadow: 1px 3px 3px 3px grey; */
+    box-shadow: 2px 2px 2px #888888;
+    width: 100%;
+    font-size: 1.4rem;
+    font-family: tahoma;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+/* NFT MINTING GAINS EDITS START HERE */
+
+.nftmintingoutter h2{
+    margin-bottom: 30px;
+    font-size: 2rem
+}
+
+.nftminingmainimg img{
+    width: 650px;
+    position: absolute;
+    top: -120px;
+}
+
+.nftmintingoutter{
+    width: 90%;
+    /* margin: auto; */
+    margin: 150px auto;
+    
+}
+
+.nftminting img{
+    width: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.nftminting ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.nftminting p{
+    font-size: 1.3rem
+}
+
+.nftmintingmain{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    box-shadow: 5px 5px 20px #888888;
+    padding: 30px;
+    height: 530px;
+    position: relative;
+    /* background-color: red */
+
+}
+
+footer{
+    background-color: white;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+footer img{
+    width:30px;
+    margin-right: 10px;
+}
+
+.footer1{
+    display: flex;
+    align-items: center;
+}
+
+
+.cryptos{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.cryptos img{
+    width: 200px;
+    margin-left: 20px;
+    /* height: 100px; */
+}
+
+table img{
+    width: 20px;
+    margin-bottom: -5px;
+} 
+
+
+table {
+    margin: 0px auto;
+    margin-top: 100px;
+    border-collapse: collapse;
+    width: 80%;
+    text-align: left;
+    background: rgba(244, 234, 249, 0.29);
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+table th{
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#tablebtn{
+    background-color: white;
+    /* box-shadow: 2px 2px 2px #888888; */
+    border: none;
+    font-size: 1.2rem;
+    padding: 15px;
+    cursor: pointer;
+    /* border-radius: 30px; */
+    /* margin: auto; */
+    margin-bottom: 50px;
+    width: 300px;
+    position: absolute;
+    right: 135px;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+
+#tablebtn:hover{
+    background-color: #eacff7;
+    border: 1px solid white;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+th {
+    padding: 5px;
+}
+
+
+td {
+    padding: 20px;
+    width: 10px;
+    margin-right: 20px;
+    /* background-color: red; */
+    text-align: left;
+    /* cursor: pointer; */
+}
+
+tr:hover {
+    background-color: #D6EEEE;
+}
+
+.coinandimage{
+    align-items: center;
+}
+
+.coinandimage img{
+    margin-right: 5px;
+    /* margin-top: 10px; */
+}
+
+.overlay{
+    position: absolute;
+    left: 0px;
+    width: 100vw;
+    height: 104vh;
+    background-color: rgba(112, 112, 112, 0.318);
+    top: 0px;
+    z-index: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    nav{
+        display: flex;
+        /* padding: auto 100px; */
+        padding-right: 20px;
+        padding-left: 20px;
+        align-items: center;
+        justify-content: space-between; 
+        align-items: center;
+        
+    }
+
+    nav ul li{
+        text-align: center;
+       
+    }
+
+    
+.herosection{
+    display: inline;
+    align-items: center;
+    padding-left: 60px;
+    position: relative;
+    height: 100vh;
+    width: 90vw;
+    /* margin-left: 20px; */
+    justify-content: center;
+    margin: auto;
+}
+
+.herosectiontext{
+    margin-top: 140px;
+    margin-left: 20px;
+}
+
+.herosection .btn button{
+    border-radius: 30px;
+    background-color: #eacff7;
+    position: absolute;
+    right: -19%;
+    z-index: 3;
+    color: black;
+    font-weight: bold;
+    margin: 15px auto;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-size: 1.2rem;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.herosectioninner1 img{
+    display: none;
+}
+
+.portfoliosectionintro img{
+    width: 200px;
+}
+
+.portfoliosectionintro h2{
+    font-size: 2rem;
+}
+.nftminingmainimg img{
+    width: 650px;
+    position: absolute;
+    top: -120px;
+    left: -150px;
+    /* background-color: red; */
+}
+
+.nftmintingoutter h2{
+    margin-bottom: 0px;
+    /* font-size: ; */
+    display: none;
+}
+    
+}
+/* only screen and (min-width: 480px) */
+
+@media only screen and (max-width: 480px){
+    body{
+        /* background-color: red; */
+    }
+
+    nav{
+        display: flex;
+        padding-right: 20px;
+        padding-left: 20px;
+        align-items: center;
+        justify-content: space-between; 
+        align-items: center;
+    }
+
+    nav ul li{
+        text-align: center;
+        display: none;
+       
+    }
+
+    .herosectiontext{
+        margin-top: 100px;
+        margin-left: 20px;
+        font-size: 0.5rem;
+    }
+    .herosectiontext h1{
+        font-size: 2rem;
+    }
+    .herosectiontext p{
+        font-size: 2rem;
+    }
+
+    
+    .herosection .btn button{
+        border-radius: 30px;
+        background-color: #eacff7;
+        position: absolute;
+        right: -12%;
+        z-index: 3;
+        color: black;
+        font-weight: bold;
+        margin: 15px auto;
+        border: none;
+        width: 100px;
+        height: 50px;
+        font-size: 1.2rem;
+        margin-top: 18px;
+        cursor: pointer;
+    }
+
+    .nfts{
+        display: none;
+    }
+
+    .cryptos{
+        display: none;
+    }
+
+    .portfoliosectionintro{
+        display: grid;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .portfoliosectionintro img{
+        margin-bottom: 40px;
+    }
+
+    .portfoliosectionintro h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .table{
+        width: 95%;
+        margin: auto;
+        overflow-x: scroll;
+    }
+
+    .nftminingmainimg img{
+        display: none;
+    }
+    
+    .nftmintingoutter h2{
+        margin-bottom: 0px;
+        font-size: 1rem;
+        display: block;
+    }
+
+    .nftmintingmain{
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+        box-shadow: 5px 5px 20px #888888;
+        padding: 30px;
+        height: 700px;
+        position: relative;
+        /* background-color: red */
+    
+    }
+}
