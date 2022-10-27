@@ -206,7 +206,7 @@ span{
 }
 
 .portfoliosectionintro h2{
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: right;
 }
 
@@ -394,8 +394,38 @@ tr:hover {
     width: 100vw;
     height: 104vh;
     background-color: rgba(112, 112, 112, 0.318);
-    top: 0px;
+    top: 0px; 
     z-index: 0;
+}
+
+.future h2{
+    font-size: 1.8rem;
+    /* margin: 20px auto; */
+             }
+.future p{
+    font-size: 1.5rem;
+}
+
+.future{
+text-align: center;
+margin-top:150px;
+}
+
+.notes{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.notes img{
+    width: 100px;
+    margin: 30px;
+}
+
+.notesoutter{
+    display: flex;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -478,6 +508,9 @@ tr:hover {
 /* only screen and (min-width: 480px) */
 
 @media only screen and (max-width: 480px){
+    .notesoutter{
+        display: grid;
+    }
     body{
         /* background-color: red; */
     }
